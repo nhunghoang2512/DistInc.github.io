@@ -211,7 +211,7 @@ function rank4Eff() {
 }
 
 function rank5Eff() {
-	return ExpantaNum.pow(1975, player.rank);
+	return ExpantaNum.pow(19.75, player.rank);
 }
 
 function rank8Eff() {
@@ -219,7 +219,7 @@ function rank8Eff() {
 }
 
 function rank14Eff() {
-	return ExpantaNum.pow(player.rf.plus(1), 16);
+	return ExpantaNum.pow(player.rf.plus(1), 3);
 }
 
 function rank40Eff() {
