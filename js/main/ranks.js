@@ -203,7 +203,7 @@ function getRankBaseCost() {
 }
 
 function rank2Eff() {
-	return ExpantaNum.pow(1.1, player.rank);
+	return ExpantaNum.pow(11, player.rank);
 }
 
 function rank4Eff() {
