@@ -207,7 +207,7 @@ function rank2Eff() {
 }
 
 function rank4Eff() {
-	return ExpantaNum.pow(3, player.tier);
+	return ExpantaNum.pow(30, player.rank);
 }
 
 function rank5Eff() {
