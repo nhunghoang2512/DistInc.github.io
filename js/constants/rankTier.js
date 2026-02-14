@@ -1,7 +1,7 @@
 // Ranks
 
 const RANK_DESCS = {
-	1: "increase the maximum velocity by 10m/s.",
+	1: "increase the maximum velocity by sigma.",
 	2: "increase the acceleration and maximum velocity by x11 for each rank up.",
 	3: "double your acceleration.",
 	4: "x30 your acceleration & maximum velocity for each tier up.",
