@@ -219,7 +219,7 @@ function rank8Eff() {
 }
 
 function rank14Eff() {
-	return ExpantaNum.pow(player.rf.plus(1), 3);
+	return ExpantaNum.pow(player.rf.plus(1), 8);
 }
 
 function rank40Eff() {
