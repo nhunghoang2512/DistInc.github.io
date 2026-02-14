@@ -8,7 +8,7 @@ const RANK_DESCS = {
 	5: "increase the acceleration and maximum velocity by 97.5% for each rank up.",
 	8: "increase your maximum velocity by 10% for each rank up.",
 	10: "double your acceleration.",
-	14: "multiply your acceleration & maximum velocity by (n+1)^1.6, where n is your rocket fuel.",
+	14: "multiply your acceleration & maximum velocity by (n+1)^16, where n is your rocket fuel.",
 	15: "quadruple your acceleration.",
 	20: "double intelligence gain.",
 	25: "multiply your acceleration by 10.",
