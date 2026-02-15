@@ -161,7 +161,7 @@ function updateTempInfUpgs() {
 }
 
 function calcKnowledgeGain(){
-	tmp.inf.knowledgeBase = ExpantaNum.pow(ExpantaNum.pow(4, tmp.inf.emPow), player.inf.endorsements).times(player.inf.endorsements);
+	tmp.inf.knowledgeBase = ExpantaNum.pow(ExpantaNum.pow(40, tmp.inf.emPow), player.inf.endorsements).times(player.inf.endorsements);
 	if (tmp.inf.upgs.has("2;8")) tmp.inf.knowledgeBase = tmp.inf.knowledgeBase.times(INF_UPGS.effects["2;8"]());
 	if (tmp.inf.upgs.has("2;10")) tmp.inf.knowledgeBase = tmp.inf.knowledgeBase.times(3456789)
 	if (ExpantaNum.gte(player.elementary.theory.tree.upgrades[42]||0, 1) && hasDE(6)) tmp.inf.knowledgeBase = tmp.inf.knowledgeBase.times(TREE_UPGS[42].effect(player.elementary.theory.tree.upgrades[42]||0))
